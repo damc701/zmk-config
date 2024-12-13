@@ -3,6 +3,13 @@
  *
  * SPDX-License-Identifier: MIT
  */
+#include <zmk/behavior.h>
+#include <zmk/led.h>
+
+void keymap_init() {
+    // Configuración del efecto de luces RGB
+    rgb_matrix_mode(RGB_MATRIX_EFFECT_RAINBOW_SWIRL);
+}
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
