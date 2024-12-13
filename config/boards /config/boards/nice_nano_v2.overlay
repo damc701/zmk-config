@@ -1,1 +1,9 @@
+&gpio {
+    rgb_leds: rgb@0 {
+        compatible = "ws2812";
+        pinctrl-0 = <&rgb_led_pin>;
+        pinctrl-names = "default";
+        status = "okay";
+    };
+};
 
