@@ -3,20 +3,6 @@
  *
  * SPDX-License-Identifier: MIT
  */
-#include <zmk/behavior.h>
-#include <zmk/led.h>
-
-const struct keymap_layer keymap[] = {
-    [0] = LAYOUT(
-        KC_A,    KC_B,    KC_C,    RGB_TOG   // RGB_TOG activará/desactivará el RGB
-    ),
-};
-
-// Definir comportamientos personalizados si es necesario
-const struct behavior behaviors[] = {
-    [RGB_TOG] = BEHAVIOR(RGB_TOGGLE),  // Habilitar o deshabilitar el RGB al presionar la tecla
-};
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
