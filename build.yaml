@@ -19,7 +19,7 @@
 #
 ---
 include:
+  - board: nice_nano_v2 
+    shield: sofle_left dongle_display
   - board: nice_nano_v2
-    shield: sofle_left
-  - board: nice_nano_v2
-    shield: sofle_right
+    shield: sofle_right dongle_display
